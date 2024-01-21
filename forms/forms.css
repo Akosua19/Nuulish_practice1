@@ -1,0 +1,31 @@
+.myForms {
+    text-align: left; 
+}
+
+fieldset {
+    background: coral;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.2em;
+    width: 50%;
+    margin: 30px auto; 
+}
+
+#box-1 {
+    padding: 30px;
+}
+
+input {
+    cursor: pointer;
+    border: 1px dotted blue;
+}
+
+button {
+    background-color: red;
+    color: white;
+}
+
+button:hover {
+    cursor: grab;
+    background-color: white;
+    color: black;
+}

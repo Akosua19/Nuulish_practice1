@@ -4,66 +4,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forms</title>
+    <link rel="stylesheet" href="forms.css">
 </head>
 <body>
 
-<form>
+<form class="myForms">
     <fieldset style="width:50% ;">
 
         <h1 style="text-align: center;">Homework :) </h1>
-    <div>
-        <label for="fName">First Name </label>
-        <input type="text" name="fName" >
-
-    </div>
-<br>
-
-    <div>
-        <label for="lName">Last Name </label>
-        <input type="text" name="lName" >
+        <div id="box-1">
+            <div>
+                <label for="fName">First Name </label>
+                <input type="text" name="fName" >
         
-    </div>
-<br>
-
-    <div>
-        <label for="email">E-mail </label>
-        <input type="email" name="email"  required>
+            </div>
+        <br>
         
-    </div>
-<br>
-
-    <div>
-        <label for="age">Age</label>
-        <input type="number" name="age" >
+            <div>
+                <label for="lName">Last Name </label>
+                <input type="text" name="lName" >
+                
+            </div>
+        <br>
         
-    </div>
-<br>
-
-    <div>
-        <label for="dob">Date Of Birth</label>
-        <input type="date" name="dob" >
+            <div>
+                <label for="email">E-mail </label>
+                <input type="email" name="email"  required>
+                
+            </div>
+        <br>
         
-    </div>
-<br>
-
-    <div>
-        <label for="favColor">Favorite Color</label>
-        <input type="text" name="favColor" >
+            <div>
+                <label for="age">Age</label>
+                <input type="number" name="age" >
+                
+            </div>
+        <br>
         
-    </div>
-
-<br>
-    <div>
-        <label for="gender">Male</label>
-        <input type="radio" name="gender" value="Male" ><br>
-        <label for="gender">Female</label>
-        <input type="radio" name="gender" value="Female" >
+            <div>
+                <label for="dob">Date Of Birth</label>
+                <input type="date" name="dob" >
+                
+            </div>
+        <br>
         
-    </div>
-<br>
-
-    <button type="reset">Reset</button>
-    <button type="submit">Submit</button>
+            <div>
+                <label for="favColor">Favorite Color</label>
+                <input type="text" name="favColor" >
+                
+            </div>
+        
+        <br>
+            <div>
+                <label for="gender">Male</label>
+                <input type="radio" name="gender" value="Male" ><br>
+                <label for="gender">Female</label>
+                <input type="radio" name="gender" value="Female" >
+                
+            </div>
+        <br>
+        
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
+        </div>
+   
 </fieldset>
 </form>
    
