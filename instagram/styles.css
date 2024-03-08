@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: "Inter", sans-serif;
+}
+
+body {
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.main-container {
+   border: 1px solid #dbdbdb;
+   padding: 20px;
+   width: 350px;
+   display: grid;
+   gap: 10px;
+}
+
+.main-container h1 {
+   text-align: center;
+   margin-bottom: 50px;
+}
+
+.main-container-footer {
+   text-align: center;
+}
+
+input,
+button {
+   width: 100%;
+   border: none;
+}
+
+input {
+   padding: 10px;
+   border: 1px solid #d7d7d7;
+   background-color: #f1f1f1;
+}
+
+button {
+   background: #0095f6;
+   color: white;
+   padding: 5px;
+   border-radius: 5px;
+}
+
+form {
+   display: grid;
+   gap: 10px;
+}
+
+.or-container {
+   display: flex;
+   align-items: center;
+   gap: 20px;
+}
+
+.facebook-login-btn,
+.or-container {
+   margin-bottom: 20px;
+   color: #385185;
+}
+
+.facebook-login-btn {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+}
+
+.line {
+   height: 1px;
+   background: rgb(219, 219, 219);
+   width: 100%;
+}
+
+img {
+}

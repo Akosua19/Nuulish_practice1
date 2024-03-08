@@ -1,113 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,200&display=swap");
 
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,200&display=swap');
-
-
-
-  body{
-    font-family: 'Poppins', sans-serif;
-    background-color: rgb(243, 241, 241);
-
-  }
-
+body {
+   font-family: "Poppins", sans-serif;
+   background-color: rgb(243, 241, 241);
+}
 
 .container {
-    display: flex;
-    justify-content: center;
-    margin: 50px;
-    padding: 50px;
+   display: flex;
+   justify-content: center;
+   /* margin: 50px; */
+   /* padding: 50px; */
 }
 
-
-h3{
-    font-size: 20px;
-    text-align: center;
-    color: white;
-    padding: 20px;
-    margin-top: 50px;
-
+h3 {
+   font-size: 20px;
+   text-align: center;
+   color: white;
+   padding: 20px;
+   margin-top: 50px;
 }
 
-
-#here{
-    text-align: center;
-    padding: 20px;
-    color: white;
-    font-size: 15px;
+#here {
+   text-align: center;
+   padding: 20px;
+   color: white;
+   font-size: 15px;
 }
 
-#myButton
-{
-    border-radius: 20px;
-    background-color: rgb(91, 91, 255);
-    width: 300px;
-    cursor: grabbing;
-    margin-left: 70px;
+#myButton {
+   border-radius: 20px;
+   background-color: rgb(91, 91, 255);
+   width: 300px;
+   cursor: grabbing;
+   margin-left: 70px;
 }
-
 
 #box1 {
-    height: 480px;
-    width: 450px;
-    background-color: rgb(105, 105, 241);
-    padding: 20px;
+   /* height: 480px;
+   width: 450px;
+   
+   padding: 20px; */
+   background-color: rgb(105, 105, 241);
+   flex: 1;
 }
 
 #box2 {
-    height: 480px;
-    width: 450px;
-    background-color:rgb(255, 255, 255);
-    padding: 20px;
+   /* height: 480px;
+   width: 450px;
+   padding: 20px; */
+   background-color: rgb(255, 255, 255);
+   flex: 1;
 }
 
-
-h2{
-    text-align: center;
-    margin-top: 25px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+h2 {
+   text-align: center;
+   margin-top: 25px;
+   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-.myStyle{
-    width: 370px;
-    margin: 12px;
-    padding: 9px;
-    background-color: rgb(243, 241, 241);
-    border: none;
-}
-    
-
-
-button{
-        width: 390px;
-        margin: 12px;
-        padding: 9px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        background-color: rgb(90, 90, 224);
-        cursor:grab;
-        border: 0;
-        font-size: 20px;
-        color: white;
-    }
-
-
-.aParagraph{
-    text-align: center;
+input {
+   width: 100%;
+   background-color: rgb(243, 241, 241);
+   border: none;
+   padding: 9px;
+   margin: 12px;
 }
 
-
-.logoContainer{
-    display: flex;
-justify-content: center;
-gap: 10px;
+button {
+   width: 390px;
+   margin: 12px;
+   padding: 9px;
+   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+   background-color: rgb(90, 90, 224);
+   cursor: grab;
+   border: 0;
+   font-size: 20px;
+   color: white;
 }
 
+.aParagraph {
+   text-align: center;
+}
+
+.logoContainer {
+   display: flex;
+   justify-content: center;
+   gap: 10px;
+}
 
 .myLogo img {
-    width: 30px; 
-    height: 30px;
-    margin-bottom: 90px;
+   width: 30px;
+   height: 30px;
+   margin-bottom: 90px;
 }
-
-
-
-
-
